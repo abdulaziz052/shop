@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Authentication</h1>
+    </header>
+
+    <main>
+        <section id="authSection">
+            <div class="form-container">
+                <h2>Register</h2>
+                <form id="registerForm">
+                    <label for="registerLogin">Login:</label>
+                    <input type="text" id="registerLogin" name="login" required><br>
+
+                    <label for="registerPassword">Password:</label>
+                    <input type="password" id="registerPassword" name="password" required><br>
+
+                    <label for="registerName">Name:</label>
+                    <input type="text" id="registerName" name="name" required><br>
+
+                    <label for="registerLastName">Last Name:</label>
+                    <input type="text" id="registerLastName" name="lastname" required><br>
+
+                    <label for="registerRole">Role:</label>
+                    <input type="text" id="registerRole" name="role" required><br>
+
+                    <label for="registerPhone">Phone:</label>
+                    <input type="text" id="registerPhone" name="phone" required><br>
+
+                    <label for="registerDepartment">Department ID:</label>
+                    <input type="text" id="registerDepartment" name="department" required><br>
+
+                    <button type="button" onclick="register()">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="./auth.js"></script>
+</body>
+</html>
